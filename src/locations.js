@@ -1,7 +1,7 @@
 export const globe = {
     longitude: -40,
     latitude: 15,
-    zoom: 0.1,
+    // zoom will be set in App.js based on window.innerWidth
 }
 
 export const lima = {

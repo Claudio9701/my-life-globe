@@ -56,6 +56,10 @@ const data = [
 
 
 function App({mapStyle}) {
+    const width = window.innerWidth;
+    const breakpoint = 600;
+    Locations.globe.zoom = width < breakpoint ? 0.1 : 0.8;
+
     const [viewState, setViewState] = useState(Locations.globe);
     const handleChangeViewState = ({ viewState }) => setViewState(viewState);
     const handleFlyTo = destination => {
