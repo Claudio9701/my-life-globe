@@ -1,7 +1,7 @@
 export const globe = {
-    longitude: -30,
+    longitude: -40,
     latitude: 15,
-    zoom: 0.8,
+    zoom: 0.1,
 }
 
 export const lima = {
