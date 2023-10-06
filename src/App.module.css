@@ -1,4 +1,4 @@
-/* Make background black with violet gradient at the center */
+
 body {
   background: rgb(5,5,5);
 }
@@ -37,3 +37,10 @@ body {
 .controls > button:active {
   background-color: #555;
 }
+
+@media only screen and (max-width: 600px) {
+  .controls > button {
+    display: none;
+  }
+}
+
