@@ -65,7 +65,7 @@ export default function Map({
       getSourceColor: [255, 0, 128],
       getTargetColor: [0, 128, 255],
       getWidth: 5,
-      getHeight: 0.1,
+      getHeight: 0.3,
       pickable: true,
       visible: style.arcCoef > 1e-6,
       coef: style.arcCoef,
